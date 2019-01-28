@@ -16,7 +16,7 @@ namespace Ass1
             printPrimeNumbers(a, b);
             
 
-            int n1 = 2;
+            int n1 = 5;
             double r1 = getSeriesResult(n1);
             Console.WriteLine("The sum of the series is: " + r1);
 
@@ -141,7 +141,9 @@ namespace Ass1
                     z = y + z;
                 }//end of first for
 
-                return z;
+                
+
+                return Math.Round(z,3);
 
             }
             catch
